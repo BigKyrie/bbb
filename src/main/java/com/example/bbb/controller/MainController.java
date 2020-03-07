@@ -13,6 +13,11 @@ public class MainController {
     @Autowired
     private MainService mainService;
 
+    @GetMapping("/hello")
+    private String helloWorld() {
+        return "user.html";
+    }
+
     @GetMapping(path = "/getAll")
     public @ResponseBody Iterable<User> getAllUsers()
     {

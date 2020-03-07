@@ -1,18 +1,6 @@
 package com.example.bbb.controller;
 
-import com.example.bbb.entity.User;
-import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.jdbc.core.RowMapper;
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.RequestMapping;
-
-import javax.annotation.Resource;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.List;
-
-@Controller
+/*@Controller
 
 @RequestMapping("/jdbc")
 
@@ -58,4 +46,4 @@ public class JdbcController {
 
     }
 
-}
+}*/
